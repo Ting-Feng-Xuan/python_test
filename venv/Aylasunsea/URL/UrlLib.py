@@ -1,0 +1,1 @@
+TimeZoneUrl="https://ads%s/apiv1/devices/%s/time_zones?env=ssct"

@@ -1,0 +1,23 @@
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1" xmlns:xsi="http://www.microsoft.com/networking/WLAN/profile/v3">
+	<name>ASUS</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>41535553</hex>
+			<name>ASUS</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey><keyType>passPhrase</keyType><protected>true</protected><keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000347E492CCEF92F4B8C3D953EDD719F8000000000020000000000106600000001000020000000743E34B63E23EBF732947DFDEADDB2D8DA3EBA04057F7B89B7269FECFD28EA25000000000E80000000020000200000002F1E05CC303935F6A4379664E848123BB103A60BD5D908A4F2178026A42F5E491000000074700635BEEC7DAE9907CCDD07D95ECC40000000FDB788B0AE03D3B24D07A8A0C340FF830941987CF2F478AC686B33747EE593C8B7D90981C3C26C051E11F67E6BA9B1E0044A9D756197D7648A38503FB78A2532</keyMaterial></sharedKey></security>
+	</MSM>
+	<xsi:MacRandomization>
+		<xsi:enableRandomization>false</xsi:enableRandomization>
+	</xsi:MacRandomization>
+</WLANProfile>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>HUAWEI_A1</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4855415745495F4131</hex>
+			<name>HUAWEI_A1</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000072B04A161821324BBF5DDE5524C4D0F500000000020000000000106600000001000020000000C0EC282652968FFC2C6F342F20D38CD60A5C04DAAE18F1EDB13B4F2C2F3A57C8000000000E8000000002000020000000D7D3505335EB888196AF03AE2CBF2E9B90BE73DEC1D3499C546097ABD40C05D210000000A7B38144D1C273B301B473EE9C7D4ACF400000008FA9A0596D472E6A593FFD982655A9B42DFE90B4C5B56ECE1522EF9102B512CC3EA20A88916B3F922D545349E3B8192CF332BE89B18263DB814B1B1CA9438309</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+	</MacRandomization>
+</WLANProfile>
